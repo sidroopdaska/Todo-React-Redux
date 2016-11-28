@@ -1,0 +1,9 @@
+{
+	"compilerOptions": {
+		"outDir": "./dist",
+		"sourceMap": true,
+		"jsx": "react",
+		"target": "es5"
+	},
+	"compileOnSave": true
+}

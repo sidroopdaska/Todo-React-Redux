@@ -1,0 +1,6 @@
+node_modules/
+bundles/
+.vscode/
+dist/
+typings/
+.DS_Store

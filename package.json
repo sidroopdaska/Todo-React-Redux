@@ -1,0 +1,35 @@
+{
+  "name": "react-redux-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "demo": "node buildscripts/devServer.js"
+  },
+  "author": "Sid",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.2",
+    "react": "^15.4.1",
+    "react-dom": "^15.4.1",
+    "react-redux": "^4.4.6",
+    "redux": "^3.6.0",
+    "redux-thunk": "^2.1.0",
+    "updeep": "^1.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^0.26.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "html-webpack-plugin": "^2.24.1",
+    "less": "^2.7.1",
+    "less-loader": "^2.2.3",
+    "react-hot-loader": "^3.0.0-beta.6",
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^1.2.2",
+    "tslint": "^4.0.2",
+    "tslint-react": "^2.0.0",
+    "typescript": "^2.0.10",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  }
+}

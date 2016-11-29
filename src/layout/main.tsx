@@ -1,5 +1,9 @@
 import * as React from "react";
-import Todo from "../pages/todo/todo";
+import Todo from "../pages/todo";
+
+/* tslint:disable:no-var-requires */
+require("./main.less");
+/* tslint:enable:no-var-requires */
 
 export interface IMainProps {}
 

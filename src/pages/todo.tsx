@@ -1,12 +1,16 @@
 import * as React from "react";
 import { connect } from "react-redux";
 import { IDispatch } from "redux";
-import { IList } from "../../definitions/appState";
-import { VisibilityFilter } from "../../definitions/enums";
-import * as actions from "../../actions/appActions";
-import { List } from "../../components/list/list";
-import { TextInput } from "../../components/textInput/textInput";
-import { ListFilter } from "../../components/listFilter/listFilter";
+import { IList } from "../definitions/appState";
+import { VisibilityFilter } from "../definitions/enums";
+import * as actions from "../actions/appActions";
+import { List } from "../components/list/list";
+import { TextInput } from "../components/textInput/textInput";
+import { ListFilter } from "../components/listFilter/listFilter";
+
+/* tslint:disable:no-var-requires */
+require("./todo.less");
+/* tslint:enable:no-var-requires */
 
 export interface ITodoProps {
 	list?: IList;
@@ -55,8 +59,9 @@ class Todo extends React.Component<ITodoProps, { item: string }> {
 
 	public render() {
 		return (
-			<div>
+			<div className="todo-page">
 				<TextInput
+					className="text-input"
 					id="text-input"
 					isInline={true}
 					value={this.state.item}
